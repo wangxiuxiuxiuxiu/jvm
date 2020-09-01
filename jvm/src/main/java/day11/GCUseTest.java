@@ -27,5 +27,7 @@ public class GCUseTest {
                 e.printStackTrace();
             }
         }
+
+        System.out.println("就是简单试试！");
     }
 }
