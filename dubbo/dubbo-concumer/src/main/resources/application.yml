@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: dubbo-auto-configure-consumer-sample
+server:
+  port: 10002
+  application:
+    name: dubbo-concumer
+dubbo:
+  protocol:
+    port: 12345
+    name: dubbo
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  reference:
+    loadbalance: roundrobin
